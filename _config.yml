@@ -1,0 +1,32 @@
+# Book settings
+title: Data Engineering & Analytics Guide
+author: Your Name
+logo: assets/logo.png
+execute:
+  execute_notebooks: 'off'  # Disable notebook execution for static site
+html:
+  use_repository_button: true
+  use_issues_button: true
+  use_edit_page_button: true
+  favicon: assets/favicon.ico
+  extra_footer: |
+    <p>Built with <a href="https://jupyterbook.org">Jupyter Book</a> and hosted on <a href="https://pages.github.com">GitHub Pages</a>.</p>
+parse:
+  myst_enable_extensions:
+    - html_image
+    - dollarmath
+    - amsmath
+    - deflist
+    - tasklist
+    - colon_fence
+sphinx:
+  config:
+    html_theme: sphinx_book_theme
+    html_theme_options:
+      repository_url: https://github.com/sings280/Data-Engineering-Analytics-Guide
+      use_repository_button: true
+      use_issues_button: true
+      use_edit_page_button: true
+      path_to_docs: .
+      logo_only: true
+    html_baseurl: https://your-username.github.io/your-repo/

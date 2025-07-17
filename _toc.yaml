@@ -1,0 +1,10 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/en/stable/customize/toc.html
+format: jb-book
+root: intro
+chapters:
+- file: chapters/data_engineering
+- file: chapters/etl_pipelines
+- file: chapters/data_warehousing
+- file: chapters/data_analytics
+- file: chapters/visualization_dashboards
