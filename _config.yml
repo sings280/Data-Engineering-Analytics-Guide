@@ -1,6 +1,6 @@
 # Book settings
 title: Data Engineering & Analytics Guide
-author: Your Name
+author: sings280
 logo: assets/logo.png
 execute:
   execute_notebooks: 'off'  # Disable notebook execution for static site
@@ -29,4 +29,4 @@ sphinx:
       use_edit_page_button: true
       path_to_docs: .
       logo_only: true
-    html_baseurl: https://your-username.github.io/your-repo/
+    html_baseurl: https://sings280.github.io/Data-Engineering-Analytics-Guide/
